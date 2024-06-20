@@ -1,0 +1,55 @@
+about: Acerca de
+_inputs:
+  $:
+    type: object
+    comment: "[Go to Page](https://glamorous-sanctuary.cloudvent.net/blog/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es-es)
+          comment: "[See page](https://glamorous-sanctuary.cloudvent.net/blog/)"
+          inputs: []
+        - heading: Already translated (es-es)
+          comment: "[See page](https://glamorous-sanctuary.cloudvent.net/blog/)"
+          inputs:
+            - about
+            - blog
+            - rss-feed
+  about:
+    label: About
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://glamorous-sanctuary.cloudvent.net/blog/#:~:text=About)"
+    context:
+      open: false
+      title: Untranslated Version
+      icon: translate
+      content: About
+  blog:
+    label: Blog
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://glamorous-sanctuary.cloudvent.net/blog/#:~:text=Blog)"
+    context:
+      open: false
+      title: Untranslated Version
+      icon: translate
+      content: Blog
+  rss-feed:
+    label: RSS Feed
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://glamorous-sanctuary.cloudvent.net/blog/#:~:text=RSS%20Feed)"
+    context:
+      open: false
+      title: Untranslated Version
+      icon: translate
+      content: RSS Feed
+blog: Blog
+rss-feed: RSS Feed
