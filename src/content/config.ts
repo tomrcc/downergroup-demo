@@ -12,7 +12,7 @@ const seoSchema = z
   })
   .optional();
 
-const blogCollection = defineCollection({
+const newsCollection = defineCollection({
   schema: z.object({
     date: z.string().or(z.date()),
     title: z.string(),
@@ -43,6 +43,6 @@ const pagesCollection = defineCollection({
 });
 
 export const collections = {
-  blog: blogCollection,
+  news: newsCollection,
   pages: pagesCollection,
 };
