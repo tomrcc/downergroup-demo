@@ -1,0 +1,171 @@
+about: ""
+_inputs:
+  $:
+    type: object
+    comment: "[See ](http://localhost:4321/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nu)
+          comment: Text to translate on [](http://localhost:4321/)
+          inputs:
+            - about
+            - github
+            - keep-what-you-need-delete-the-rest
+            - markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon
+            - markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables
+            - news
+            - niue-hanan-international-airport
+            - rss-feed
+        - heading: Already translated (nu)
+          comment: Text already translated on [](http://localhost:4321/)
+          inputs: []
+  about:
+    label: About
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/#:~:text=About)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: About
+  github:
+    label: GitHub
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/#:~:text=GitHub)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: GitHub
+  keep-what-you-need-delete-the-rest:
+    label: Keep what you need Delete the rest
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](http://localhost:4321/#:~:text=Keep%20what%20you,Delete%20the%20res\
+      t)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Keep what you need. Delete the rest.
+  markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon:
+    label: In 2021 during Covid’s peak impacts Downer...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See on
+      page](http://localhost:4321/#:~:text=In%202021%20during,Minister%20Christ\
+      opher%20Luxon)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: In 2021, during Covid’s peak impacts, Downer commenced work with the
+        Government of Niue, New Zealand’s Ministry of Foreign Affairs, and
+        engineer to the contract, GHD to upgrade infrastructure at Niue Hanan
+        International Airport. Now, in June 2024, we mark the official opening
+        with New Zealand’s Prime Minister Christopher Luxon.
+  markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables:
+    label: To help save you time some features are se...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See on
+      page](http://localhost:4321/#:~:text=To%20help%20save,CSS%20variables)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >-
+        To help save you time, some features are set up in this template, like:
+
+
+        *
+        [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/)
+
+        * news with pagination, tags and
+        [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
+
+        * [Image
+        optimization](https://docs.astro.build/en/guides/images/#image--astroassets)
+
+        * SEO Controls
+
+        * Responsive header and footer
+
+        * [Font Awesome Icons](https://fontawesome.com/search?o=r&m=free)
+
+        * Schemas for adding new pages
+
+        * Editable color pallete
+
+        * Markdown styles
+
+        * CloudCannon configuration
+
+        * CSS variables
+  news:
+    label: news
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/#:~:text=news)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: news
+  niue-hanan-international-airport:
+    label: Niue Hanan International Airport
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](http://localhost:4321/#:~:text=Niue%20Hanan%20International%20Airpo\
+      rt)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Niue Hanan International Airport
+  rss-feed:
+    label: RSS Feed
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/#:~:text=RSS%20Feed)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: RSS Feed
+github: ""
+keep-what-you-need-delete-the-rest: ""
+markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon: ""
+markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables: ""
+news: ""
+niue-hanan-international-airport: ""
+rss-feed: ""

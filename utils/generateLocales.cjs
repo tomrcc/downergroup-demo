@@ -9,11 +9,7 @@ const md = markdownit();
 const translationsDirPath = './rosey/translations';
 const localesDirPath = './rosey/locales';
 
-const locales = process.env.LOCALES?.toLowerCase().split(',') || [
-  'es-es',
-  'de-de',
-  'fr-fr',
-];
+const locales = process.env.LOCALES?.toLowerCase().split(',') || ['nu'];
 
 // The generateLocales function runs on each separate locale
 async function main(locale) {
