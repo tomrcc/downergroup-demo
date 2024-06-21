@@ -44,11 +44,11 @@ collections_config:
         href: cloudcannon:settings/build
     disable_add_folder: true
     disable_file_actions: true
-  posts:
-    path: src/content/blog
+  news:
+    path: src/content/news
     parser: front-matter
     output: true
-    url: '/blog/[full_slug]/'
+    url: '/news/[full_slug]/'
     _enabled_editors:
       - content
       - visual
@@ -102,9 +102,9 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-  - heading: Blogging
+  - heading: News
     collections:
-      - posts
+      - news
   - heading: Data
     collections:
       - data
@@ -129,6 +129,7 @@ _inputs:
         - image/png
         - image/jpeg
         - image/gif
+        - image/jpg
       paths:
         static: '.'
         uploads: src/assets/images
