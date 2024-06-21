@@ -1,86 +1,92 @@
 {
   "de-de": {
     "current": false,
-    "baseTotal": 14,
+    "baseTotal": 13,
     "total": 15,
     "states": {
-      "unused": 1,
+      "unused": 4,
+      "current": 11,
       "outdated": 0,
-      "current": 14,
-      "missing": 0
+      "missing": 2
     },
     "keys": {
+      "about-page": "current",
       "rss-feed": "current",
+      "keep-what-you-need-delete-the-rest": "current",
+      "blog:/blog/best-email-sending-services/": "current",
       "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
       "about": "current",
-      "blog:/blog/best-email-sending-services/": "current",
-      "cloudcannon": "current",
-      "keep-what-you-need-delete-the-rest": "current",
-      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
-      "blog:/blog/5-things-to-improve-you-email-templates/": "current",
       "github": "current",
-      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "current",
-      "blog:/blog/email-delivery-tips/": "current",
-      "about-page": "current",
-      "astro-bookshop-starter": "current",
+      "niue-hanan-international-airport": "missing",
+      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
       "blog:/blog/all-the-bells-and-whistles/": "unused",
-      "blog": "current"
+      "blog:/blog/5-things-to-improve-you-email-templates/": "current",
+      "astro-bookshop-starter": "unused",
+      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "unused",
+      "blog": "current",
+      "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": "missing",
+      "blog:/blog/email-delivery-tips/": "current",
+      "cloudcannon": "unused"
     }
   },
   "es-es": {
     "current": false,
-    "baseTotal": 14,
+    "baseTotal": 13,
     "total": 15,
     "states": {
-      "missing": 0,
+      "missing": 2,
+      "unused": 4,
       "outdated": 0,
-      "unused": 1,
-      "current": 14
+      "current": 11
     },
     "keys": {
+      "cloudcannon": "unused",
+      "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": "missing",
       "blog:/blog/all-the-bells-and-whistles/": "unused",
-      "blog": "current",
-      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "current",
-      "rss-feed": "current",
-      "github": "current",
-      "astro-bookshop-starter": "current",
-      "about-page": "current",
-      "cloudcannon": "current",
+      "astro-bookshop-starter": "unused",
+      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
       "blog:/blog/5-things-to-improve-you-email-templates/": "current",
       "blog:/blog/email-delivery-tips/": "current",
-      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
+      "github": "current",
+      "blog": "current",
       "about": "current",
       "blog:/blog/best-email-sending-services/": "current",
+      "about-page": "current",
+      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
+      "rss-feed": "current",
       "keep-what-you-need-delete-the-rest": "current",
-      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current"
+      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "unused",
+      "niue-hanan-international-airport": "missing"
     }
   },
   "fr-fr": {
     "current": false,
-    "baseTotal": 14,
+    "baseTotal": 13,
     "total": 15,
     "states": {
+      "missing": 2,
       "outdated": 0,
-      "current": 14,
-      "unused": 1,
-      "missing": 0
+      "current": 11,
+      "unused": 4
     },
     "keys": {
-      "rss-feed": "current",
-      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
-      "github": "current",
       "blog:/blog/best-email-sending-services/": "current",
-      "cloudcannon": "current",
+      "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": "missing",
       "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
       "blog:/blog/5-things-to-improve-you-email-templates/": "current",
-      "blog:/blog/all-the-bells-and-whistles/": "unused",
-      "about": "current",
-      "blog": "current",
       "blog:/blog/email-delivery-tips/": "current",
       "about-page": "current",
+      "github": "current",
+      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
+      "niue-hanan-international-airport": "missing",
+      "about": "current",
+      "astro-bookshop-starter": "unused",
+      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "unused",
+      "cloudcannon": "unused",
       "keep-what-you-need-delete-the-rest": "current",
-      "astro-bookshop-starter": "current",
-      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "current"
+      "rss-feed": "current",
+      "blog:/blog/all-the-bells-and-whistles/": "unused",
+      "blog": "current"
     }
   }
 }
