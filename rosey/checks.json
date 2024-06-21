@@ -1,28 +1,28 @@
 {
   "nu": {
-    "current": false,
+    "current": true,
     "baseTotal": 13,
-    "total": 0,
+    "total": 13,
     "states": {
+      "current": 13,
       "outdated": 0,
-      "current": 0,
-      "missing": 13,
+      "missing": 0,
       "unused": 0
     },
     "keys": {
-      "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": "missing",
-      "news:/news/5-things-to-improve-you-email-templates/": "missing",
-      "about-page": "missing",
-      "github": "missing",
-      "niue-hanan-international-airport": "missing",
-      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "missing",
-      "about": "missing",
-      "news:/news/best-email-sending-services/": "missing",
-      "rss-feed": "missing",
-      "news:/news/email-delivery-tips/": "missing",
-      "news": "missing",
-      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "missing",
-      "keep-what-you-need-delete-the-rest": "missing"
+      "keep-what-you-need-delete-the-rest": "current",
+      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
+      "about-page": "current",
+      "news": "current",
+      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
+      "about": "current",
+      "github": "current",
+      "news:/news/5-things-to-improve-you-email-templates/": "current",
+      "niue-hanan-international-airport": "current",
+      "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": "current",
+      "news:/news/email-delivery-tips/": "current",
+      "rss-feed": "current",
+      "news:/news/best-email-sending-services/": "current"
     }
   }
 }
