@@ -20,24 +20,9 @@
     ],
     "locales": [
       {
-        "code": "es-es",
-        "name": "Espanol",
+        "code": "nu",
+        "name": "Niue",
         "flag": "/images/flags/spain-flag-png-large.png"
-      },
-      {
-        "code": "de-de",
-        "name": "Deutsch",
-        "flag": "/images/flags/germany-flag.png"
-      },
-      {
-        "code": "fr-fr",
-        "name": "French",
-        "flag": "/images/flags/france-flag.png"
-      },
-      {
-        "code": "en",
-        "name": "English (US)",
-        "flag": "/images/flags/usa-flag.jpeg"
       }
     ]
   },
