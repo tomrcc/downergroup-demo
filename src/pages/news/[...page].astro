@@ -1,27 +1,27 @@
 ---
-import type { Page } from "astro";
-import newsList from "../../components/news/list";
-import newsPagination from "../../components/news/pagination";
-import Layout, { type Props as LayoutProps } from "../../layouts/Layout.astro";
+import type { Page } from 'astro';
+import NewsList from '../../components/news/list';
+import NewsPagination from '../../components/news/pagination';
+import Layout, { type Props as LayoutProps } from '../../layouts/Layout.astro';
 import {
   getCollection,
   getEntryBySlug,
   type CollectionEntry,
-} from "astro:content";
+} from 'astro:content';
 
 type Props = {
-  page: Page<CollectionEntry<"news">>;
+  page: Page<CollectionEntry<'news'>>;
 };
 
 export async function getStaticPaths({ paginate }: { paginate: Function }) {
-  const posts = await getCollection("news");
-  const page = await getEntryBySlug("pages", "news");
+  const posts = await getCollection('news');
+  const page = await getEntryBySlug('pages', 'news');
   return paginate(posts, {
-    pageSize: "page_size" in page.data ? page.data.page_size : 6,
+    pageSize: 'page_size' in page.data ? page.data.page_size : 6,
   });
 }
 
-const page = await getEntryBySlug("pages", "news");
+const page = await getEntryBySlug('pages', 'news');
 const frontmatter = page.data as LayoutProps;
 const pagination = Astro.props.page;
 const { data: posts } = pagination;
@@ -30,13 +30,12 @@ const { data: posts } = pagination;
 <Layout {...frontmatter}>
   <div class="py-[48px] md:py-[96px]">
     <h1
-      class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center xl:mb-12"
-    >
+      class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center xl:mb-12">
       {page.data.title}
     </h1>
     <section class="news-index mx-auto flex justify-center">
-      <newsList posts={posts} />
-      <newsPagination pagination={pagination} />
+      <NewsList posts={posts} />
+      <NewsPagination pagination={pagination} />
     </section>
   </div>
 </Layout>

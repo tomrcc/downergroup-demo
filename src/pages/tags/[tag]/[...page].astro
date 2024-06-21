@@ -1,13 +1,13 @@
 ---
-import newsList from "../../../components/news/list";
-import newsPagination from "../../../components/news/pagination";
-import Layout from "../../../layouts/Layout.astro";
-import { getCollection, getEntryBySlug } from "astro:content";
+import NewsList from '../../../components/news/list';
+import NewsPagination from '../../../components/news/pagination';
+import Layout from '../../../layouts/Layout.astro';
+import { getCollection, getEntryBySlug } from 'astro:content';
 
 export async function getStaticPaths({ paginate }: { paginate: Function }) {
   const tags: Record<string, any> = {};
-  const page = await getEntryBySlug("pages", "news");
-  const posts = await getCollection("news");
+  const page = await getEntryBySlug('pages', 'news');
+  const posts = await getCollection('news');
   posts.forEach(({ data }) =>
     data.tags.forEach((tag: string) => (tags[tag] = true))
   );
@@ -16,13 +16,13 @@ export async function getStaticPaths({ paginate }: { paginate: Function }) {
     const filteredPosts = posts.filter(({ data }) => data.tags.includes(tag));
     return paginate(filteredPosts, {
       params: { tag },
-      pageSize: "page_size" in page.data ? page.data.page_size : 6,
+      pageSize: 'page_size' in page.data ? page.data.page_size : 6,
     });
   });
 }
 
-const tag = Astro.params.tag ?? "";
-const page = (await getEntryBySlug("pages", "news")).data;
+const tag = Astro.params.tag ?? '';
+const page = (await getEntryBySlug('pages', 'news')).data;
 
 page.title = tag[0].toUpperCase() + tag.slice(1);
 
@@ -33,13 +33,12 @@ const filteredPosts = pagination.data;
 <Layout title={page.title} seo={page.seo}>
   <div class="py-[96px]">
     <h1
-      class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center my-12"
-    >
+      class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center my-12">
       {page.title}
     </h1>
     <section class="news-index mx-auto">
-      <newsList posts={filteredPosts} />
-      <newsPagination pagination={pagination} />
+      <NewsList posts={filteredPosts} />
+      <NewsPagination pagination={pagination} />
     </section>
   </div>
 </Layout>
