@@ -14,7 +14,7 @@ _inputs:
           comment: "[See page](https://glamorous-sanctuary.cloudvent.net/about/)"
           inputs:
             - about
-            - blog
+            - news
             - markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel
             - rss-feed
   about:
@@ -42,18 +42,18 @@ _inputs:
       title: Untranslated Version
       icon: translate
       content: About page
-  blog:
-    label: Blog
+  news:
+    label: news
     hidden: false
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/about/#:~:text=Blog)"
+      page](https://glamorous-sanctuary.cloudvent.net/about/#:~:text=news)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
-      content: Blog
+      content: news
   markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel:
     label: This is all about what we're _about_ like ...
     hidden: false
@@ -92,7 +92,7 @@ _inputs:
       icon: translate
       content: RSS Feed
 about-page: ""
-blog: Blog
+news: news
 markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel: |-
   Tout dépend de ce que nous faisons, comme de ce que nous faisons vraiment
 

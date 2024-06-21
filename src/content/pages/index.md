@@ -52,7 +52,7 @@ content_blocks:
 
         - [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/)
 
-        - Blog with pagination, tags and [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
+        - news with pagination, tags and [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
 
         - [Image optimization](https://docs.astro.build/en/guides/images/#image--astroassets)
 

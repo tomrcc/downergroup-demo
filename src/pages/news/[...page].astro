@@ -1,7 +1,7 @@
 ---
 import type { Page } from "astro";
-import BlogList from "../../components/blog/list";
-import BlogPagination from "../../components/blog/pagination";
+import newsList from "../../components/news/list";
+import newsPagination from "../../components/news/pagination";
 import Layout, { type Props as LayoutProps } from "../../layouts/Layout.astro";
 import {
   getCollection,
@@ -10,18 +10,18 @@ import {
 } from "astro:content";
 
 type Props = {
-  page: Page<CollectionEntry<"blog">>;
+  page: Page<CollectionEntry<"news">>;
 };
 
 export async function getStaticPaths({ paginate }: { paginate: Function }) {
-  const posts = await getCollection("blog");
-  const page = await getEntryBySlug("pages", "blog");
+  const posts = await getCollection("news");
+  const page = await getEntryBySlug("pages", "news");
   return paginate(posts, {
     pageSize: "page_size" in page.data ? page.data.page_size : 6,
   });
 }
 
-const page = await getEntryBySlug("pages", "blog");
+const page = await getEntryBySlug("pages", "news");
 const frontmatter = page.data as LayoutProps;
 const pagination = Astro.props.page;
 const { data: posts } = pagination;
@@ -34,15 +34,15 @@ const { data: posts } = pagination;
     >
       {page.data.title}
     </h1>
-    <section class="blog-index mx-auto flex justify-center">
-      <BlogList posts={posts} />
-      <BlogPagination pagination={pagination} />
+    <section class="news-index mx-auto flex justify-center">
+      <newsList posts={posts} />
+      <newsPagination pagination={pagination} />
     </section>
   </div>
 </Layout>
 
 <style>
-  .blog-index {
+  .news-index {
     max-width: var(--pageContainer);
     padding-inline: var(--pagePadding);
   }

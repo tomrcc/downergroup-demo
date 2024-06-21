@@ -67,7 +67,7 @@ async function main(locale) {
 
         if (keyName !== '_inputs') {
           const isKeyMarkdown = keyName.slice(0, 10).includes('markdown:');
-          const isKeyBlog = keyName.slice(0, 8).includes('blog:');
+          const isKeynews = keyName.slice(0, 8).includes('news:');
 
           // Write the value to be any translated value that appears in translations files
           // If no value detected, and the locale value is an empty string, write the original to value as a fallback
@@ -81,7 +81,7 @@ async function main(locale) {
               );
               const markdownTranslation = md.render(translationEntry);
               const localeValue =
-                isKeyMarkdown || isKeyBlog
+                isKeyMarkdown || isKeynews
                   ? markdownTranslation
                   : translationEntry;
               // Write the value to the locales

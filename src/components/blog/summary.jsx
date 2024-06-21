@@ -9,7 +9,7 @@ export default function PostSummary({ post }) {
     <>
       <div className="">
         <article className="block">
-          <a href={`/blog/${slug}`}>
+          <a href={`/news/${slug}`}>
             <img
               className="rounded-lg aspect-video"
               src={thumb_image_path}
@@ -17,7 +17,7 @@ export default function PostSummary({ post }) {
               loading="lazy"
             />
           </a>
-          <div className="blog-post-tag">
+          <div className="news-post-tag">
             {tags.slice(0, 2).map((tag, i) => (
               <a href={`/tags/${tag.toLowerCase()}`} key={i}>
                 {tag[0].toUpperCase() + tag.slice(1)}
@@ -26,7 +26,7 @@ export default function PostSummary({ post }) {
           </div>
           <a
             className="flex flex-col justify-start mt-2 max-w-[500px]"
-            href={`/blog/${slug}`}>
+            href={`/news/${slug}`}>
             <p className="text-2xl font-semibold">{title}</p>
             <p className="font-light">{author}</p>
             <p className="font-light">

@@ -1,34 +1,34 @@
-blog: Blog (DE) - Every page
+news: news (DE) - Every page
 _inputs:
   $:
     type: object
     comment: "[Go to
-      Page](https://glamorous-sanctuary.cloudvent.net/blog/all-the-bells-and-wh\
+      Page](https://glamorous-sanctuary.cloudvent.net/news/all-the-bells-and-wh\
       istles/)"
     options:
       place_groups_below: false
       groups:
         - heading: Untranslated
           comment: "[To be
-            translated](https://glamorous-sanctuary.cloudvent.net/blog/all-the-\
+            translated](https://glamorous-sanctuary.cloudvent.net/news/all-the-\
             bells-and-whistles/)"
           inputs:
-            - blog:/blog/all-the-bells-and-whistles/
+            - news:/news/all-the-bells-and-whistles/
             - rss-feed
         - heading: Translated
           comment: "[Already
-            translated](https://glamorous-sanctuary.cloudvent.net/blog/all-the-\
+            translated](https://glamorous-sanctuary.cloudvent.net/news/all-the-\
             bells-and-whistles/)"
           inputs:
-            - blog
-  blog:
+            - news
+  news:
     label: Translation (de-de)
     hidden: false
     type: text
     options: {}
-    comment: Blog | [See
-      Context](https://glamorous-sanctuary.cloudvent.net/blog/all-the-bells-and-whistles/#:~:text=Blog)
-  blog:/blog/all-the-bells-and-whistles/:
+    comment: news | [See
+      Context](https://glamorous-sanctuary.cloudvent.net/news/all-the-bells-and-whistles/#:~:text=news)
+  news:/news/all-the-bells-and-whistles/:
     label: Translation (de-de)
     hidden: false
     type: textarea
@@ -84,7 +84,7 @@ _inputs:
       * Another item  
          * A sub item though  
          * Another sub item
-      ![](/images/blog/blog-thumb-1.jpg) 
+      ![](/images/news/news-thumb-1.jpg) 
 
 
       ---
@@ -131,13 +131,13 @@ _inputs:
 
 
       Your browser does not support the video tag.  | [See
-      Context](https://glamorous-sanctuary.cloudvent.net/blog/all-the-bells-and-whistles/#:~:text=A%20new%20post,the%20video%20tag)
+      Context](https://glamorous-sanctuary.cloudvent.net/news/all-the-bells-and-whistles/#:~:text=A%20new%20post,the%20video%20tag)
   rss-feed:
     label: Translation (de-de)
     hidden: false
     type: text
     options: {}
     comment: RSS Feed | [See
-      Context](https://glamorous-sanctuary.cloudvent.net/blog/all-the-bells-and-whistles/#:~:text=RSS%20Feed)
-blog:/blog/all-the-bells-and-whistles/: ""
+      Context](https://glamorous-sanctuary.cloudvent.net/news/all-the-bells-and-whistles/#:~:text=RSS%20Feed)
+news:/news/all-the-bells-and-whistles/: ""
 rss-feed: ""

@@ -6,8 +6,8 @@
     "color": "#393939",
     "links": [
       {
-        "link": "/blog/",
-        "text": "Blog"
+        "link": "/news/",
+        "text": "news"
       },
       {
         "link": "/feed.xml",
@@ -49,8 +49,8 @@
     "color": "#ffffff",
     "links": [
       {
-        "link": "/blog/",
-        "text": "Blog"
+        "link": "/news/",
+        "text": "news"
       },
       {
         "link": "/feed.xml",

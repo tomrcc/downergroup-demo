@@ -1,4 +1,4 @@
-export default function BlogPagination({ pagination }) {
+export default function newsPagination({ pagination }) {
   const {
     currentPage,
     lastPage,
@@ -17,7 +17,7 @@ export default function BlogPagination({ pagination }) {
           className={`page-link btn btn-secondary ${
             i === currentPage ? "active" : ""
           }`}
-          href={i === 1 ? "/blog" : `/blog/${i}`}
+          href={i === 1 ? "/news" : `/news/${i}`}
         >
           {i}
         </a>
@@ -27,7 +27,7 @@ export default function BlogPagination({ pagination }) {
 
   return (
     <>
-      <nav className="blog-pagination">
+      <nav className="news-pagination">
         <ul className="pagination">
           {prev && (
             <li className="page-item">

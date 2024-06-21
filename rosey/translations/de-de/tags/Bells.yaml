@@ -1,4 +1,4 @@
-blog: Blog (DE) - Every page
+news: news (DE) - Every page
 _inputs:
   $:
     type: object
@@ -15,14 +15,14 @@ _inputs:
           comment: "[Already
             translated](https://glamorous-sanctuary.cloudvent.net/tags/Bells/)"
           inputs:
-            - blog
-  blog:
+            - news
+  news:
     label: Translation (de-de)
     hidden: false
     type: text
     options: {}
-    comment: Blog | [See
-      Context](https://glamorous-sanctuary.cloudvent.net/tags/Bells/#:~:text=Blog)
+    comment: news | [See
+      Context](https://glamorous-sanctuary.cloudvent.net/tags/Bells/#:~:text=news)
   rss-feed:
     label: Translation (de-de)
     hidden: false

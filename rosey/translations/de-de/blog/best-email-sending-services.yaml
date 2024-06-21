@@ -3,52 +3,52 @@ _inputs:
   $:
     type: object
     comment: "[Go to
-      Page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sending-s\
+      Page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sending-s\
       ervices/)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (de-de)
           comment: "[See
-            page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sen\
+            page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sen\
             ding-services/)"
           inputs:
             - rss-feed
         - heading: Already translated (de-de)
           comment: "[See
-            page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sen\
+            page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sen\
             ding-services/)"
           inputs:
             - about
-            - blog
-            - blog:/blog/best-email-sending-services/
+            - news
+            - news:/news/best-email-sending-services/
   about:
     label: About
     hidden: false
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sending-s\
+      page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sending-s\
       ervices/#:~:text=About)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
       content: About
-  blog:
-    label: Blog
+  news:
+    label: news
     hidden: false
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sending-s\
-      ervices/#:~:text=Blog)"
+      page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sending-s\
+      ervices/#:~:text=news)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
-      content: Blog
-  blog:/blog/best-email-sending-services/:
+      content: news
+  news:/news/best-email-sending-services/:
     label: When you send an email campaign you expect...
     hidden: false
     type: markdown
@@ -62,7 +62,7 @@ _inputs:
       removeformat: true
       copyformatting: true
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sending-s\
+      page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sending-s\
       ervices/#:~:text=When%20you%20send,a%20timely%20manner)"
     context:
       open: false
@@ -155,15 +155,15 @@ _inputs:
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/best-email-sending-s\
+      page](https://glamorous-sanctuary.cloudvent.net/news/best-email-sending-s\
       ervices/#:~:text=RSS%20Feed)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
       content: RSS Feed
-blog: Blog (DE) - Every page
-blog:/blog/best-email-sending-services/: >-
+news: news (DE) - Every page
+news:/news/best-email-sending-services/: >-
   Wenn Sie eine E-Mail-Kampagne **versenden**, erwarten Sie, *dass* diese Ihre
   Leser erreicht, oder? Was aber, wenn die E-Mails direkt in den Spam-Ordnern
   Ihrer Abonnenten landen und nicht in deren Posteingängen? Um sicherzustellen,

@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: news
 page_size: 6
 seo:
-  page_description: 'A blog template with tags.'
+  page_description: 'A news template with tags.'
   canonical_url:
   featured_image:
   featured_image_alt:

@@ -9,13 +9,13 @@ _inputs:
         - heading: Still to translate (es-es)
           comment: "[See page](https://glamorous-sanctuary.cloudvent.net/)"
           inputs:
-            - markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables
+            - markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables
         - heading: Already translated (es-es)
           comment: "[See page](https://glamorous-sanctuary.cloudvent.net/)"
           inputs:
             - about
             - astro-bookshop-starter
-            - blog
+            - news
             - cloudcannon
             - github
             - keep-what-you-need-delete-the-rest
@@ -45,17 +45,17 @@ _inputs:
       title: Untranslated Version
       icon: translate
       content: Astro Bookshop Starter
-  blog:
-    label: Blog
+  news:
+    label: news
     hidden: false
     type: text
     options: {}
-    comment: "[See on page](https://glamorous-sanctuary.cloudvent.net/#:~:text=Blog)"
+    comment: "[See on page](https://glamorous-sanctuary.cloudvent.net/#:~:text=news)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
-      content: Blog
+      content: news
   cloudcannon:
     label: CloudCannon
     hidden: false
@@ -115,7 +115,7 @@ _inputs:
       content: A starting point for **developers looking to build a website with
         Astro, using Bookshop components in CloudCannon**. Create your own copy,
         and start creating your own components to use in the CloudCannon CMS.
-  markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables:
+  markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables:
     label: To help save you time some features are se...
     hidden: false
     type: markdown
@@ -142,7 +142,7 @@ _inputs:
         *
         [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/)
 
-        * Blog with pagination, tags and
+        * news with pagination, tags and
         [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
 
         * [Image
@@ -176,7 +176,7 @@ _inputs:
       icon: translate
       content: RSS Feed
 astro-bookshop-starter: Inicio de la Bookshop Astro
-blog: Blog
+news: news
 cloudcannon: CloudCannon
 github: GitHub
 keep-what-you-need-delete-the-rest: Conserva lo que necesitas. Elimina el resto.
@@ -184,5 +184,5 @@ markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-u
   Un punto de partida para los **desarrolladores que buscan crear un sitio web
   con Astro, utilizando componentes de Bookshop en CloudCannon**. Cree su propia
   copia y comience a crear sus propios componentes para usar en CloudCannon CMS.
-markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables: ""
+markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables: ""
 rss-feed: RSS Feed

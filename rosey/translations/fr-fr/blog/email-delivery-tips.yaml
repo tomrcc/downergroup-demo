@@ -3,24 +3,24 @@ _inputs:
   $:
     type: object
     comment: "[Go to
-      Page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery-tips/\
+      Page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery-tips/\
       )"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (fr-fr)
           comment: "[See
-            page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery\
+            page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery\
             -tips/)"
           inputs:
-            - blog:/blog/email-delivery-tips/
+            - news:/news/email-delivery-tips/
         - heading: Already translated (fr-fr)
           comment: "[See
-            page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery\
+            page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery\
             -tips/)"
           inputs:
             - about
-            - blog
+            - news
             - rss-feed
   about:
     label: About
@@ -28,27 +28,27 @@ _inputs:
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery-tips/\
+      page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery-tips/\
       #:~:text=About)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
       content: About
-  blog:
-    label: Blog
+  news:
+    label: news
     hidden: false
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery-tips/\
-      #:~:text=Blog)"
+      page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery-tips/\
+      #:~:text=news)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
-      content: Blog
-  blog:/blog/email-delivery-tips/:
+      content: news
+  news:/news/email-delivery-tips/:
     label: When you send an email campaign you expect...
     hidden: false
     type: markdown
@@ -62,7 +62,7 @@ _inputs:
       removeformat: true
       copyformatting: true
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery-tips/\
+      page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery-tips/\
       #:~:text=When%20you%20send,a%20timely%20manner)"
     context:
       open: false
@@ -152,13 +152,13 @@ _inputs:
     type: text
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/blog/email-delivery-tips/\
+      page](https://glamorous-sanctuary.cloudvent.net/news/email-delivery-tips/\
       #:~:text=RSS%20Feed)"
     context:
       open: false
       title: Untranslated Version
       icon: translate
       content: RSS Feed
-blog: Blog
-blog:/blog/email-delivery-tips/: ""
+news: news
+news:/news/email-delivery-tips/: ""
 rss-feed: RSS Feed

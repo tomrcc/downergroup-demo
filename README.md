@@ -5,7 +5,7 @@ If you're looking for some help getting a multilingual site up and running in As
 TODO: Put screenshot here of translation workflow here
 TODO: How to add your own Rosey tags to new components
 TODO: What if there multiple uses of the same phrase/word
-TODO: How blog and other long form text differs from component text and how to add other namespaces like blog using docs as an example
+TODO: How news and other long form text differs from component text and how to add other namespaces like news using docs as an example
 
 Notes
 This is best used if you don't want the layout to change between languages - if you want to control the layout unique to each locale, use the split by directory approach.
@@ -192,13 +192,13 @@ preview:
 _inputs:
 ```
 
-### Blog & Documentation Pages
+### news & Documentation Pages
 
-Blog section with tags and pagination included.
+news section with tags and pagination included.
 
-Documentation, blog and other text heavy sections should replicate how the blog section is implemented in this template.
+Documentation, news and other text heavy sections should replicate how the news section is implemented in this template.
 
-The blog pages in this template use MDX to allow for snippets. Snippets allow you to use HTML components throughout your markdown text.
+The news pages in this template use MDX to allow for snippets. Snippets allow you to use HTML components throughout your markdown text.
 
 A common layout, with changing markdown content is favored for these kinds of text heavy pages, rather than using Bookshop components - which are defined and managed in your markdown pages frontmatter.
 
@@ -334,8 +334,8 @@ Demonstrates using data files to:
 ### Schemas
 
 Shows how to set up schemas in CloudCannon to allow for non-technical editors to create new pages, with preset frontmatter and content.
-Schemas can be define on a collection level, allowing your new blog pages to be different to your new landing pages.
-This allows for your text heavy blog/docs pages to be built and edited in the content editor, while your other pages can be built with Bookshop in the visual editor.
+Schemas can be define on a collection level, allowing your new news pages to be different to your new landing pages.
+This allows for your text heavy news/docs pages to be built and edited in the content editor, while your other pages can be built with Bookshop in the visual editor.
 
 ### CloudCannon Config
 
@@ -356,6 +356,6 @@ Extra work could be done to write a `node fs` script to write said values from a
 
 ### Coming Soon
 
-- Scheduling blog posts for a future date
+- Scheduling news posts for a future date
 - Editor links to colors data file
 - Writing CSS vars (padding, page max-width, etc.) through an editable data file

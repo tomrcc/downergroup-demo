@@ -1,13 +1,13 @@
 ---
-import BlogList from "../../../components/blog/list";
-import BlogPagination from "../../../components/blog/pagination";
+import newsList from "../../../components/news/list";
+import newsPagination from "../../../components/news/pagination";
 import Layout from "../../../layouts/Layout.astro";
 import { getCollection, getEntryBySlug } from "astro:content";
 
 export async function getStaticPaths({ paginate }: { paginate: Function }) {
   const tags: Record<string, any> = {};
-  const page = await getEntryBySlug("pages", "blog");
-  const posts = await getCollection("blog");
+  const page = await getEntryBySlug("pages", "news");
+  const posts = await getCollection("news");
   posts.forEach(({ data }) =>
     data.tags.forEach((tag: string) => (tags[tag] = true))
   );
@@ -22,7 +22,7 @@ export async function getStaticPaths({ paginate }: { paginate: Function }) {
 }
 
 const tag = Astro.params.tag ?? "";
-const page = (await getEntryBySlug("pages", "blog")).data;
+const page = (await getEntryBySlug("pages", "news")).data;
 
 page.title = tag[0].toUpperCase() + tag.slice(1);
 
@@ -37,15 +37,15 @@ const filteredPosts = pagination.data;
     >
       {page.title}
     </h1>
-    <section class="blog-index mx-auto">
-      <BlogList posts={filteredPosts} />
-      <BlogPagination pagination={pagination} />
+    <section class="news-index mx-auto">
+      <newsList posts={filteredPosts} />
+      <newsPagination pagination={pagination} />
     </section>
   </div>
 </Layout>
 
 <style>
-  .blog-index {
+  .news-index {
     max-width: var(--pageContainer);
     padding-inline: var(--pagePadding);
   }

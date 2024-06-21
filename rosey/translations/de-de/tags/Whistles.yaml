@@ -1,4 +1,4 @@
-blog: Blog (DE) - Every page
+news: news (DE) - Every page
 _inputs:
   $:
     type: object
@@ -17,14 +17,14 @@ _inputs:
             translated](https://glamorous-sanctuary.cloudvent.net/tags/Whistles\
             /)"
           inputs:
-            - blog
-  blog:
+            - news
+  news:
     label: Translation (de-de)
     hidden: false
     type: text
     options: {}
-    comment: Blog | [See
-      Context](https://glamorous-sanctuary.cloudvent.net/tags/Whistles/#:~:text=Blog)
+    comment: news | [See
+      Context](https://glamorous-sanctuary.cloudvent.net/tags/Whistles/#:~:text=news)
   rss-feed:
     label: Translation (de-de)
     hidden: false

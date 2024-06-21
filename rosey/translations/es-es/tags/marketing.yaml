@@ -13,7 +13,7 @@ _inputs:
           comment: "[See page](https://glamorous-sanctuary.cloudvent.net/tags/marketing/)"
           inputs:
             - about
-            - blog
+            - news
             - rss-feed
   about:
     label: About
@@ -28,8 +28,8 @@ _inputs:
       title: Untranslated Version
       icon: translate
       content: About
-  blog:
-    label: Blog
+  news:
+    label: news
     hidden: false
     type: text
     options: {}
@@ -40,7 +40,7 @@ _inputs:
       open: false
       title: Untranslated Version
       icon: translate
-      content: Blog
+      content: news
   rss-feed:
     label: RSS Feed
     hidden: false
@@ -54,5 +54,5 @@ _inputs:
       title: Untranslated Version
       icon: translate
       content: RSS Feed
-blog: Blog
+news: news
 rss-feed: RSS Feed

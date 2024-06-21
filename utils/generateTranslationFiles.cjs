@@ -234,9 +234,9 @@ async function main(locale) {
         // Add each entry to our _inputs obj
         const markdownTextInput =
           inputKey.slice(0, 10).includes('markdown:') ||
-          inputKey.slice(0, 10).includes('blog:');
+          inputKey.slice(0, 10).includes('news:');
 
-        const isStaticKeyInput = inputKey.slice(0, 10).includes('blog:');
+        const isStaticKeyInput = inputKey.slice(0, 10).includes('news:');
 
         // TODO: Only run diff if we find something in the checks.json
         const diff = isStaticKeyInput
