@@ -16,31 +16,20 @@ content_blocks:
   - _bookshop_name: hero
     background_color: '#ffffff'
     heading:
-      heading_text: Astro Bookshop Starter
-      heading_gradient_color: '#a0a2ff'
+      heading_text: Niue Hanan International Airport
+      heading_gradient_color: '#94a3b8'
     subheading:
       markdown_content: >-
-        A starting point for **developers looking to build a website with Astro, using
-        Bookshop components in CloudCannon**. Create your own copy, and start
-        creating your own components to use in the CloudCannon CMS.
+        In 2021, during Covid’s peak impacts, Downer commenced work with the
+        Government of Niue, New Zealand’s Ministry of Foreign Affairs, and
+        engineer to the contract, GHD to upgrade infrastructure at Niue Hanan
+        International Airport. Now, in June 2024, we mark the official opening
+        with New Zealand’s Prime Minister Christopher Luxon.
       color: '#393939'
     image:
       image_path: /src/assets/images/featured-image-5.jpg
       alt_text: An image
-    buttons:
-      - _bookshop_name: buttons/primary
-        button_text: GitHub
-        button_icon: Github
-        button_link: https://www.cloudcannon.com
-        background_color: '#034ad8'
-        hover_brightness: 0.85
-        text_color: '#ffffff'
-      - _bookshop_name: buttons/secondary
-        button_text: CloudCannon
-        button_icon: CloudCannon
-        button_link: https://www.cloudcannon.com
-        hover_brightness: 0.95
-        text_color: '#034ad8'
+    buttons: []
   - _bookshop_name: left_right
     background_color: '#ffffff'
     heading:
@@ -50,11 +39,14 @@ content_blocks:
       markdown_content: >-
         To help save you time, some features are set up in this template, like:
 
-        - [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/)
+        -
+        [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/)
 
-        - news with pagination, tags and [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
+        - news with pagination, tags and
+        [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
 
-        - [Image optimization](https://docs.astro.build/en/guides/images/#image--astroassets)
+        - [Image
+        optimization](https://docs.astro.build/en/guides/images/#image--astroassets)
 
         - SEO Controls
 
@@ -71,7 +63,6 @@ content_blocks:
         - CloudCannon configuration
 
         - CSS variables
-
       color: '#393939'
     image:
       image_path: /src/assets/images/undraw-hello.svg

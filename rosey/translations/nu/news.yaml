@@ -1,0 +1,52 @@
+about: ""
+_inputs:
+  $:
+    type: object
+    comment: "[See news/](http://localhost:4321/news/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nu)
+          comment: Text to translate on [news/](http://localhost:4321/news/)
+          inputs:
+            - about
+            - news
+            - rss-feed
+        - heading: Already translated (nu)
+          comment: Text already translated on [news/](http://localhost:4321/news/)
+          inputs: []
+  about:
+    label: About
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/news/#:~:text=About)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: About
+  news:
+    label: news
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/news/#:~:text=news)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: news
+  rss-feed:
+    label: RSS Feed
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/news/#:~:text=RSS%20Feed)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: RSS Feed
+news: ""
+rss-feed: ""

@@ -1,0 +1,54 @@
+about: ""
+_inputs:
+  $:
+    type: object
+    comment: "[See tags/technology/](http://localhost:4321/tags/technology/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nu)
+          comment: Text to translate on
+            [tags/technology/](http://localhost:4321/tags/technology/)
+          inputs:
+            - about
+            - news
+            - rss-feed
+        - heading: Already translated (nu)
+          comment: Text already translated on
+            [tags/technology/](http://localhost:4321/tags/technology/)
+          inputs: []
+  about:
+    label: About
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/tags/technology/#:~:text=About)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: About
+  news:
+    label: news
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/tags/technology/#:~:text=news)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: news
+  rss-feed:
+    label: RSS Feed
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/tags/technology/#:~:text=RSS%20Feed)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: RSS Feed
+news: ""
+rss-feed: ""

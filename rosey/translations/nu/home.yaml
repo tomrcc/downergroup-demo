@@ -1,82 +1,45 @@
-about: Á propos
+about: ""
 _inputs:
   $:
     type: object
-    comment: "[Go to Page](https://glamorous-sanctuary.cloudvent.net/)"
+    comment: "[See ](http://localhost:4321/)"
     options:
       place_groups_below: false
       groups:
-        - heading: Still to translate (fr-fr)
-          comment: "[See page](https://glamorous-sanctuary.cloudvent.net/)"
-          inputs:
-            - astro-bookshop-starter
-            - cloudcannon
-            - github
-            - keep-what-you-need-delete-the-rest
-            - markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms
-            - markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables
-        - heading: Already translated (fr-fr)
-          comment: "[See page](https://glamorous-sanctuary.cloudvent.net/)"
+        - heading: Still to translate (nu)
+          comment: Text to translate on [](http://localhost:4321/)
           inputs:
             - about
+            - github
+            - keep-what-you-need-delete-the-rest
+            - markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon
+            - markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables
             - news
+            - niue-hanan-international-airport
             - rss-feed
+        - heading: Already translated (nu)
+          comment: Text already translated on [](http://localhost:4321/)
+          inputs: []
   about:
     label: About
     hidden: false
     type: text
     options: {}
-    comment: "[See on page](https://glamorous-sanctuary.cloudvent.net/#:~:text=About)"
+    comment: "[See on page](http://localhost:4321/#:~:text=About)"
     context:
       open: false
-      title: Untranslated Version
+      title: Untranslated Text
       icon: translate
       content: About
-  astro-bookshop-starter:
-    label: Astro Bookshop Starter
-    hidden: false
-    type: textarea
-    options: {}
-    comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/#:~:text=Astro%20Bookshop\
-      %20Starter)"
-    context:
-      open: false
-      title: Untranslated Version
-      icon: translate
-      content: Astro Bookshop Starter
-  news:
-    label: news
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on page](https://glamorous-sanctuary.cloudvent.net/#:~:text=news)"
-    context:
-      open: false
-      title: Untranslated Version
-      icon: translate
-      content: news
-  cloudcannon:
-    label: CloudCannon
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/#:~:text=CloudCannon)"
-    context:
-      open: false
-      title: Untranslated Version
-      icon: translate
-      content: CloudCannon
   github:
     label: GitHub
     hidden: false
     type: text
     options: {}
-    comment: "[See on page](https://glamorous-sanctuary.cloudvent.net/#:~:text=GitHub)"
+    comment: "[See on page](http://localhost:4321/#:~:text=GitHub)"
     context:
       open: false
-      title: Untranslated Version
+      title: Untranslated Text
       icon: translate
       content: GitHub
   keep-what-you-need-delete-the-rest:
@@ -85,15 +48,15 @@ _inputs:
     type: textarea
     options: {}
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/#:~:text=Keep%20what%20yo\
-      u,Delete%20the%20rest)"
+      page](http://localhost:4321/#:~:text=Keep%20what%20you,Delete%20the%20res\
+      t)"
     context:
       open: false
-      title: Untranslated Version
+      title: Untranslated Text
       icon: translate
       content: Keep what you need. Delete the rest.
-  markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms:
-    label: A starting point for developers looking to...
+  markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon:
+    label: In 2021 during Covid’s peak impacts Downer...
     hidden: false
     type: markdown
     options:
@@ -106,15 +69,17 @@ _inputs:
       removeformat: true
       copyformatting: true
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/#:~:text=A%20starting%20p\
-      oint,the%20CloudCannon%20CMS)"
+      page](http://localhost:4321/#:~:text=In%202021%20during,Minister%20Christ\
+      opher%20Luxon)"
     context:
       open: false
-      title: Untranslated Version
+      title: Untranslated Text
       icon: translate
-      content: A starting point for **developers looking to build a website with
-        Astro, using Bookshop components in CloudCannon**. Create your own copy,
-        and start creating your own components to use in the CloudCannon CMS.
+      content: In 2021, during Covid’s peak impacts, Downer commenced work with the
+        Government of Niue, New Zealand’s Ministry of Foreign Affairs, and
+        engineer to the contract, GHD to upgrade infrastructure at Niue Hanan
+        International Airport. Now, in June 2024, we mark the official opening
+        with New Zealand’s Prime Minister Christopher Luxon.
   markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables:
     label: To help save you time some features are se...
     hidden: false
@@ -129,11 +94,10 @@ _inputs:
       removeformat: true
       copyformatting: true
     comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/#:~:text=To%20help%20save\
-      ,CSS%20variables)"
+      page](http://localhost:4321/#:~:text=To%20help%20save,CSS%20variables)"
     context:
       open: false
-      title: Untranslated Version
+      title: Untranslated Text
       icon: translate
       content: >-
         To help save you time, some features are set up in this template, like:
@@ -163,23 +127,45 @@ _inputs:
         * CloudCannon configuration
 
         * CSS variables
+  news:
+    label: news
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/#:~:text=news)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: news
+  niue-hanan-international-airport:
+    label: Niue Hanan International Airport
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](http://localhost:4321/#:~:text=Niue%20Hanan%20International%20Airpo\
+      rt)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: Niue Hanan International Airport
   rss-feed:
     label: RSS Feed
     hidden: false
     type: text
     options: {}
-    comment: "[See on
-      page](https://glamorous-sanctuary.cloudvent.net/#:~:text=RSS%20Feed)"
+    comment: "[See on page](http://localhost:4321/#:~:text=RSS%20Feed)"
     context:
       open: false
-      title: Untranslated Version
+      title: Untranslated Text
       icon: translate
       content: RSS Feed
-astro-bookshop-starter: ""
-news: news
-cloudcannon: ""
 github: ""
 keep-what-you-need-delete-the-rest: ""
-markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms: ""
+markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon: ""
 markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables: ""
-rss-feed: RSS Feed
+news: ""
+niue-hanan-international-airport: ""
+rss-feed: ""

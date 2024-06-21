@@ -1,86 +1,28 @@
 {
-  "de-de": {
-    "current": false,
-    "baseTotal": 14,
-    "total": 15,
+  "nu": {
+    "current": true,
+    "baseTotal": 13,
+    "total": 13,
     "states": {
-      "outdated": 0,
-      "current": 14,
-      "missing": 0,
-      "unused": 1
-    },
-    "keys": {
-      "rss-feed": "current",
-      "news:/news/email-delivery-tips/": "current",
-      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "current",
-      "about": "current",
-      "github": "current",
-      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
-      "news:/news/all-the-bells-and-whistles/": "unused",
-      "astro-bookshop-starter": "current",
-      "cloudcannon": "current",
-      "news:/news/best-email-sending-services/": "current",
-      "news:/news/5-things-to-improve-you-email-templates/": "current",
-      "keep-what-you-need-delete-the-rest": "current",
-      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
-      "about-page": "current",
-      "news": "current"
-    }
-  },
-  "es-es": {
-    "current": false,
-    "baseTotal": 14,
-    "total": 15,
-    "states": {
+      "current": 13,
       "outdated": 0,
       "missing": 0,
-      "unused": 1,
-      "current": 14
+      "unused": 0
     },
     "keys": {
-      "news:/news/email-delivery-tips/": "current",
-      "astro-bookshop-starter": "current",
+      "keep-what-you-need-delete-the-rest": "current",
       "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
-      "about": "current",
-      "news:/news/5-things-to-improve-you-email-templates/": "current",
+      "about-page": "current",
+      "news": "current",
       "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current",
-      "about-page": "current",
-      "news:/news/best-email-sending-services/": "current",
-      "rss-feed": "current",
-      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "current",
-      "news": "current",
-      "keep-what-you-need-delete-the-rest": "current",
-      "github": "current",
-      "news:/news/all-the-bells-and-whistles/": "unused",
-      "cloudcannon": "current"
-    }
-  },
-  "fr-fr": {
-    "current": false,
-    "baseTotal": 14,
-    "total": 15,
-    "states": {
-      "current": 14,
-      "missing": 0,
-      "unused": 1,
-      "outdated": 0
-    },
-    "keys": {
-      "about-page": "current",
-      "news": "current",
       "about": "current",
-      "astro-bookshop-starter": "current",
-      "news:/news/all-the-bells-and-whistles/": "unused",
-      "news:/news/5-things-to-improve-you-email-templates/": "current",
-      "news:/news/best-email-sending-services/": "current",
-      "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": "current",
-      "rss-feed": "current",
-      "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": "current",
-      "keep-what-you-need-delete-the-rest": "current",
-      "news:/news/email-delivery-tips/": "current",
-      "cloudcannon": "current",
       "github": "current",
-      "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": "current"
+      "news:/news/5-things-to-improve-you-email-templates/": "current",
+      "niue-hanan-international-airport": "current",
+      "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": "current",
+      "news:/news/email-delivery-tips/": "current",
+      "rss-feed": "current",
+      "news:/news/best-email-sending-services/": "current"
     }
   }
 }

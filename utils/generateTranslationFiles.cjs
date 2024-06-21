@@ -15,11 +15,7 @@ const Diff = require('diff');
 const inputFilePath = './rosey/base.json';
 const translationFilesDirPath = './rosey/translations';
 const baseURL = process.env.BASEURL || 'http://localhost:4321/';
-let locales = process.env.LOCALES?.toLowerCase().split(',') || [
-  'es-es',
-  'de-de',
-  'fr-fr',
-];
+let locales = process.env.LOCALES?.toLowerCase().split(',') || ['nu'];
 const localesDirPath = './rosey/locales';
 
 async function main(locale) {

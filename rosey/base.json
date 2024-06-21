@@ -7,11 +7,11 @@
       "pages": {
         "404.html": 1,
         "about/index.html": 1,
+        "index.html": 1,
         "news/5-things-to-improve-you-email-templates/index.html": 1,
         "news/best-email-sending-services/index.html": 1,
         "news/email-delivery-tips/index.html": 1,
         "news/index.html": 1,
-        "index.html": 1,
         "tags/email/index.html": 1,
         "tags/marketing/index.html": 1,
         "tags/technology/index.html": 1
@@ -26,8 +26,40 @@
       },
       "total": 1
     },
-    "astro-bookshop-starter": {
-      "original": " Astro Bookshop Starter ",
+    "github": {
+      "original": " GitHub ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "keep-what-you-need-delete-the-rest": {
+      "original": " Keep what you need. Delete the rest. ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "markdown:in-2021-during-covid's-peak-impacts-downer-commenced-work-with-the-government-of-niue-new-zealand's-ministry-of-foreign-affairs-and-engineer-to-the-contract-ghd-to-upgrade-infrastructure-at-niue-hanan-international-airport-now-in-june-2024-we-mark-the-official-opening-with-new-zealand's-prime-minister-christopher-luxon": {
+      "original": "<p>In 2021, during Covid’s peak impacts, Downer commenced work with the Government of Niue, New Zealand’s Ministry of Foreign Affairs, and engineer to the contract, GHD to upgrade infrastructure at Niue Hanan International Airport. Now, in June 2024, we mark the official opening with New Zealand’s Prime Minister Christopher Luxon.</p>\n",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": {
+      "original": "<p>This is all about what we're <em>about</em> like what we're really <em><strong>about</strong></em></p>\n<h2>A heading halfway through lel</h2>\n",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": {
+      "original": "<p>To help save you time, some features are set up in this template, like:</p>\n<ul>\n<li><a href=\"https://cloudcannon.com/documentation/guides/bookshop-astro-guide/\">Bookshop</a></li>\n<li>news with pagination, tags and <a href=\"https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx\">snippets</a></li>\n<li><a href=\"https://docs.astro.build/en/guides/images/#image--astroassets\">Image optimization</a></li>\n<li>SEO Controls</li>\n<li>Responsive header and footer</li>\n<li><a href=\"https://fontawesome.com/search?o=r&amp;m=free\">Font Awesome Icons</a></li>\n<li>Schemas for adding new pages</li>\n<li>Editable color pallete</li>\n<li>Markdown styles</li>\n<li>CloudCannon configuration</li>\n<li>CSS variables</li>\n</ul>\n",
       "value": null,
       "pages": {
         "index.html": 1
@@ -40,11 +72,11 @@
       "pages": {
         "404.html": 1,
         "about/index.html": 1,
+        "index.html": 1,
         "news/5-things-to-improve-you-email-templates/index.html": 1,
         "news/best-email-sending-services/index.html": 1,
         "news/email-delivery-tips/index.html": 1,
         "news/index.html": 1,
-        "index.html": 1,
         "tags/email/index.html": 1,
         "tags/marketing/index.html": 1,
         "tags/technology/index.html": 1
@@ -75,48 +107,8 @@
       },
       "total": 1
     },
-    "cloudcannon": {
-      "original": " CloudCannon ",
-      "value": null,
-      "pages": {
-        "index.html": 1
-      },
-      "total": 1
-    },
-    "github": {
-      "original": " GitHub ",
-      "value": null,
-      "pages": {
-        "index.html": 2
-      },
-      "total": 2
-    },
-    "keep-what-you-need-delete-the-rest": {
-      "original": " Keep what you need. Delete the rest. ",
-      "value": null,
-      "pages": {
-        "index.html": 1
-      },
-      "total": 1
-    },
-    "markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": {
-      "original": "<p>A starting point for <strong>developers looking to build a website with Astro, using Bookshop components in CloudCannon</strong>. Create your own copy, and start creating your own components to use in the CloudCannon CMS.</p>\n",
-      "value": null,
-      "pages": {
-        "index.html": 1
-      },
-      "total": 1
-    },
-    "markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel": {
-      "original": "<p>This is all about what we're <em>about</em> like what we're really <em><strong>about</strong></em></p>\n<h2>A heading halfway through lel</h2>\n",
-      "value": null,
-      "pages": {
-        "about/index.html": 1
-      },
-      "total": 1
-    },
-    "markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-news-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": {
-      "original": "<p>To help save you time, some features are set up in this template, like:</p>\n<ul>\n<li><a href=\"https://cloudcannon.com/documentation/guides/bookshop-astro-guide/\">Bookshop</a></li>\n<li>news with pagination, tags and <a href=\"https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx\">snippets</a></li>\n<li><a href=\"https://docs.astro.build/en/guides/images/#image--astroassets\">Image optimization</a></li>\n<li>SEO Controls</li>\n<li>Responsive header and footer</li>\n<li><a href=\"https://fontawesome.com/search?o=r&amp;m=free\">Font Awesome Icons</a></li>\n<li>Schemas for adding new pages</li>\n<li>Editable color pallete</li>\n<li>Markdown styles</li>\n<li>CloudCannon configuration</li>\n<li>CSS variables</li>\n</ul>\n",
+    "niue-hanan-international-airport": {
+      "original": " Niue Hanan International Airport ",
       "value": null,
       "pages": {
         "index.html": 1
@@ -129,11 +121,11 @@
       "pages": {
         "404.html": 1,
         "about/index.html": 1,
+        "index.html": 1,
         "news/5-things-to-improve-you-email-templates/index.html": 1,
         "news/best-email-sending-services/index.html": 1,
         "news/email-delivery-tips/index.html": 1,
         "news/index.html": 1,
-        "index.html": 1,
         "tags/email/index.html": 1,
         "tags/marketing/index.html": 1,
         "tags/technology/index.html": 1

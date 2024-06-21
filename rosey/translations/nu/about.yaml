@@ -1,0 +1,91 @@
+about: ""
+_inputs:
+  $:
+    type: object
+    comment: "[See about/](http://localhost:4321/about/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nu)
+          comment: Text to translate on [about/](http://localhost:4321/about/)
+          inputs:
+            - about
+            - about-page
+            - markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel
+            - news
+            - rss-feed
+        - heading: Already translated (nu)
+          comment: Text already translated on [about/](http://localhost:4321/about/)
+          inputs: []
+  about:
+    label: About
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/about/#:~:text=About)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: About
+  about-page:
+    label: About page
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/about/#:~:text=About%20page)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: About page
+  markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel:
+    label: This is all about what we're _about_ like ...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See on
+      page](http://localhost:4321/about/#:~:text=This%20is%20all,halfway%20thro\
+      ugh%20lel)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |-
+        This is all about what we're _about_ like what we're really _**about**_
+
+        ## A heading halfway through lel
+  news:
+    label: news
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/about/#:~:text=news)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: news
+  rss-feed:
+    label: RSS Feed
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on page](http://localhost:4321/about/#:~:text=RSS%20Feed)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: RSS Feed
+about-page: ""
+markdown:this-is-all-about-what-we're-about-like-what-we're-really-about-##-a-heading-halfway-through-lel: ""
+news: ""
+rss-feed: ""
